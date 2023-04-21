@@ -1,0 +1,77 @@
+body {
+    color: #fff;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(20px);
+    padding:68px;
+    padding-left:150px;
+    padding-right:150px;
+}
+
+.card0 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:10px;
+}
+
+.card1 {
+    padding: 40px;    
+    transform: translate(5%);
+}
+
+.image {
+    width: 00px;
+    height: 300px;
+}
+
+.large-font {
+    font-size: 70px;
+    font-family: Arial;
+    color: white;
+}
+
+.card2 {
+    backdrop-filter: blur(20px);
+    background-color: inherit;
+    color: white;
+}
+
+#city, #date, #weather{
+    color:white;
+}
+
+input {
+    background-color: inherit;
+    padding: 24px 0px 12px 0px !important;
+    width: 80%;
+    box-sizing: border-box;
+    border: none !important;
+    border-bottom: 1px solid #CFD8DC !important;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #fff !important;
+    outline-width: 0;
+    font-weight: 400;
+}
+
+::placeholder {
+    color: #b8d7e7 !important;
+    opacity: 1;
+}
+
+.light-text {
+    color:white;
+}
+
+@media screen and (max-width: 500px) {
+    .card1 {
+        padding-left: 26px;
+    }
+}
